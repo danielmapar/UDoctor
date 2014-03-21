@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>zipped-resources</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0</version>
+  <name>Zipped Resources</name>
+  <description>\
+GZip encodes static resources using the Resources plugin framework
+</description>
+  <url>http://grails.org/plugin/zipped-resources</url>
+  <developers>
+        <developer>
+            <name>Marc Palmer</name>
+            <email>marc@grailsrocks.com</email>
+        </developer>
+  </developers>
+  
+</project>                    
+                                

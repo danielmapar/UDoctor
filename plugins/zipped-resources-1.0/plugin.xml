@@ -1,0 +1,21 @@
+<plugin name='zipped-resources' version='1.0' grailsVersion='1.2 &gt; *'>
+  <author>Marc Palmer</author>
+  <authorEmail>marc@grailsrocks.com</authorEmail>
+  <title>Zipped Resources</title>
+  <description>\
+GZip encodes static resources using the Resources plugin framework
+</description>
+  <documentation>http://grails.org/plugin/zipped-resources</documentation>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugin.zippedresources.ZipResourceMapper</resource>
+  </resources>
+  <dependencies>
+    <plugin name='resources' version='1.0.RC3 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>cache-headers</artifactId>
+  <packaging>zip</packaging>
+  <version>1.1.5</version>
+  <name>Caching Headers Plugin</name>
+  <description>\
+Improve your application performance with browser caching, with easy ways to set caching headers in controller responses 
+</description>
+  <url>http://grails.org/plugin/cache-headers</url>
+  <developers>
+        <developer>
+            <name>Marc Palmer</name>
+            <email>marc@grailsrocks.com</email>
+        </developer>
+  </developers>
+  <dependencies>
+    
+  </dependencies>
+</project>                    
+                                

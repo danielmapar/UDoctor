@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.grails.internal"
+		module="udoctor"
+		revision="0.1"
+		conf="build"
+		confs="build"
+		date="20130315203138"/>
+	<dependencies>
+		<module organisation="org.grails.plugins" name="tomcat">
+			<revision name="2.2.1" status="release" pubdate="20130221105436" resolver="cache" artresolver="cache" homepage="http://grails.org/plugin/tomcat" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="19">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6204" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails.plugins\tomcat\ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/plugins/tomcat-2.2.1.pom"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tomcat" type="zip" ext="zip" status="no" details="" size="3783" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails.plugins\tomcat\zips\tomcat-2.2.1.zip">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/plugins/tomcat-2.2.1.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-catalina-ant">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2712" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat\tomcat-catalina-ant\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat/tomcat-catalina-ant/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="2.2.1"/>
+				<artifacts>
+					<artifact name="tomcat-catalina-ant" type="jar" ext="jar" status="no" details="" size="54803" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat\tomcat-catalina-ant\jars\tomcat-catalina-ant-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-tomcat">
+			<revision name="2.2.1" status="release" pubdate="20130313234009" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="20">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-plugin-tomcat\ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-tomcat" type="jar" ext="jar" status="no" details="" size="74755" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-plugin-tomcat\jars\grails-plugin-tomcat-2.2.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/dist/grails-plugin-tomcat-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-jasper">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2715" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-jasper\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-jasper/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="2.2.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-jasper" type="jar" ext="jar" status="no" details="" size="788386" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-jasper\jars\tomcat-embed-jasper-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-core">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-core\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-core/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="2.2.1"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-jasper" conf="compile, runtime" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="7.0.30"/>
+				<artifacts>
+					<artifact name="tomcat-embed-core" type="jar" ext="jar" status="no" details="" size="2578981" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-core\jars\tomcat-embed-core-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-log4j">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2419" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-log4j/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="2.2.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-log4j" type="jar" ext="jar" status="no" details="" size="83226" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\jars\tomcat-embed-logging-log4j-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-juli">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2416" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-juli\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-juli/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="2.2.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-juli" type="jar" ext="jar" status="no" details="" size="38129" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-juli\jars\tomcat-embed-logging-juli-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt.core.compiler" name="ecj">
+			<revision name="3.7.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.eclipse.org/jdt/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2567" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.eclipse.jdt.core.compiler\ecj\ivy-3.7.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.eclipse.jdt.core.compiler/ecj/ivy-3.7.2.xml"/>
+				<caller organisation="org.grails.plugins" name="tomcat" conf="default, compile, runtime, master" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="2.2.1"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-jasper" conf="compile, runtime" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="7.0.30"/>
+				<artifacts>
+					<artifact name="ecj" type="jar" ext="jar" status="no" details="" size="1749449" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.eclipse.jdt.core.compiler\ecj\jars\ecj-3.7.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-trax">
+			<revision name="1.7.1" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="2978" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-trax\ivy-1.7.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-trax/ivy-1.7.1.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ant-trax" type="jar" ext="jar" status="no" details="" size="6881" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-trax\jars\ant-trax-1.7.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-junit">
+			<revision name="1.8.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="17">
+				<metadata-artifact status="no" details="" size="2750" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-junit\ivy-1.8.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-junit/ivy-1.8.2.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ant-junit" type="jar" ext="jar" status="no" details="" size="102220" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-junit\jars\ant-junit-1.8.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-junit/jars/ant-junit-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.8.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="15">
+				<metadata-artifact status="no" details="" size="2729" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant\ivy-1.8.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant/ivy-1.8.2.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="no" details="" size="1933743" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant\jars\ant-1.8.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant/jars/ant-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.8.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="2412" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-launcher\ivy-1.8.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-launcher/ivy-1.8.2.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="no" details="" size="12322" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ant\ant-launcher\jars\ant-launcher-1.8.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ant/ant-launcher/jars/ant-launcher-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.6.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="4290" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.slf4j\jcl-over-slf4j\ivy-1.6.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.slf4j/jcl-over-slf4j/ivy-1.6.2.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="17310" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.6.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="13">
+				<metadata-artifact status="no" details="" size="4123" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.slf4j\slf4j-api\ivy-1.6.2.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.slf4j/slf4j-api/ivy-1.6.2.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25689" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.slf4j\slf4j-api\jars\slf4j-api-1.6.2.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-scripts">
+			<revision name="2.2.1" status="release" pubdate="20130313233959" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default" position="12">
+				<metadata-artifact status="no" details="" size="416" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-scripts\ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-scripts" type="jar" ext="jar" status="no" details="" size="874439" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-scripts\jars\grails-scripts-2.2.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/dist/grails-scripts-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-bootstrap">
+			<revision name="2.2.1" status="release" pubdate="20130313233959" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default" position="11">
+				<metadata-artifact status="no" details="" size="420" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-bootstrap\ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-bootstrap" type="jar" ext="jar" status="no" details="" size="739651" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-bootstrap\jars\grails-bootstrap-2.2.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/dist/grails-bootstrap-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-docs">
+			<revision name="2.2.1" status="release" pubdate="20130313233959" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default" position="10">
+				<metadata-artifact status="no" details="" size="410" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-docs\ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-docs" type="jar" ext="jar" status="no" details="" size="288327" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.grails\grails-docs\jars\grails-docs-2.2.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/dist/grails-docs-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="serializer">
+			<revision name="2.7.1" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="2725" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\xalan\serializer\ivy-2.7.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/xalan/serializer/ivy-2.7.1.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="278281" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\xalan\serializer\jars\serializer-2.7.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/xalan/serializer/jars/serializer-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.fusesource.jansi" name="jansi">
+			<revision name="1.2.1" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://${forge-project-id}.fusesource.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3377" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.fusesource.jansi\jansi\ivy-1.2.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.fusesource.jansi/jansi/ivy-1.2.1.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jansi" type="jar" ext="jar" status="no" details="" size="36877" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.fusesource.jansi\jansi\jars\jansi-1.2.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.fusesource.jansi/jansi/jars/jansi-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="3.2.3" status="release" pubdate="20121211012229" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="8">
+				<metadata-artifact status="no" details="" size="2284" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\net.java.dev.jna\jna\ivy-3.2.3.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/net.java.dev.jna/jna/ivy-3.2.3.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="3.2.3" rev-constraint-default="3.2.3" rev-constraint-dynamic="3.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="859016" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\net.java.dev.jna\jna\jars\jna-3.2.3.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/net.java.dev.jna/jna/jars/jna-3.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ivy" name="ivy">
+			<revision name="2.2.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="4618" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ivy\ivy\ivy-2.2.0.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ivy/ivy/ivy-2.2.0.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ivy" type="jar" ext="jar" status="no" details="" size="947592" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.ivy\ivy\jars\ivy-2.2.0.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.ivy/ivy/jars/ivy-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="1.0" status="release" pubdate="20121211012228" resolver="cache" artresolver="cache" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2953" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\jline\jline\ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/jline/jline/ivy-1.0.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="91183" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\jline\jline\jars\jline-1.0.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/jline/jline/jars/jline-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpg-jdk15">
+			<revision name="1.45" status="release" pubdate="20121211012236" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="3">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<license name="Apache Software License, Version 1.1" url="http://www.apache.org/licenses/LICENSE-1.1"/>
+				<metadata-artifact status="no" details="" size="2844" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.bouncycastle\bcpg-jdk15\ivy-1.45.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.bouncycastle/bcpg-jdk15/ivy-1.45.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcpg-jdk15" type="jar" ext="jar" status="no" details="" size="163975" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.bouncycastle\bcpg-jdk15\jars\bcpg-jdk15-1.45.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.bouncycastle/bcpg-jdk15/jars/bcpg-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15">
+			<revision name="1.45" status="release" pubdate="20121211012237" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2524" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.bouncycastle\bcprov-jdk15\ivy-1.45.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.bouncycastle/bcprov-jdk15/ivy-1.45.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15" type="jar" ext="jar" status="no" details="" size="1663318" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.bouncycastle\bcprov-jdk15\jars\bcprov-jdk15-1.45.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.bouncycastle/bcprov-jdk15/jars/bcprov-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.json-simple" name="json-simple">
+			<revision name="1.1" status="release" pubdate="20121211012235" resolver="cache" artresolver="cache" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2396" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\com.googlecode.json-simple\json-simple\ivy-1.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/com.googlecode.json-simple/json-simple/ivy-1.1.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json-simple" type="jar" ext="jar" status="no" details="" size="16046" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\com.googlecode.json-simple\json-simple\jars\json-simple-1.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.4.1" status="release" pubdate="20121211012235" resolver="cache" artresolver="cache" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2937" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\com.google.protobuf\protobuf-java\ivy-2.4.1.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/com.google.protobuf/protobuf-java/ivy-2.4.1.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="450279" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\com.google.protobuf\protobuf-java\jars\protobuf-java-2.4.1.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.uaa" name="org.springframework.uaa.client">
+			<revision name="1.0.1.RELEASE" status="release" pubdate="20121211012233" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Apache Software License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7614" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.springframework.uaa\org.springframework.uaa.client\ivy-1.0.1.RELEASE.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.springframework.uaa/org.springframework.uaa.client/ivy-1.0.1.RELEASE.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, build" rev="1.0.1.RELEASE" rev-constraint-default="1.0.1.RELEASE" rev-constraint-dynamic="1.0.1.RELEASE" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.springframework.uaa.client" type="bundle" ext="jar" status="no" details="" size="117471" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.springframework.uaa\org.springframework.uaa.client\bundles\org.springframework.uaa.client-1.0.1.RELEASE.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.springframework.uaa/org.springframework.uaa.client/jars/org.springframework.uaa.client-1.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

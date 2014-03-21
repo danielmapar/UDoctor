@@ -1,0 +1,336 @@
+* {margin:0; padding:0; border:none; outline:none !important}
+html {height:100%}
+body {line-height:1; position:relative; min-height:100%; font-family:arial, helvetica, sans-serif}
+input[type=text] {font-size:12px !important}
+textarea {resize:vertical}
+
+#header a {
+	-webkit-transition-timing-function:ease; -webkit-transition-duration:.2s; -webkit-transition-property:all;
+	-moz-transition-timing-function:ease; -moz-transition-duration:.2s; -moz-transition-property:all;
+	-o-transition-timing-function:ease; -o-transition-duration:.2s; -o-transition-property:all;
+	transition-timing-function:ease; transition-duration:.2s; transition-property:all;
+}
+
+.container {width:960px; position:relative; margin:auto}
+.container:before, .container:after {content:''; display:table}
+
+.search {position:relative}
+.search input {padding:0 32px 0 8px; border-radius:4px; font-size:14px; color:#333; border-top-color:#bbb}
+.search input:hover, .search input:focus {box-shadow:inset 0 1px 3px #ccc}
+.search input:focus {border-color:#0ab}
+.search #location {position:absolute; top:11px; right:11px; opacity:0.4; cursor:pointer}
+.search #location:hover, #location.location-active {opacity:0.6 !important}
+
+.btn-success, .pagination a:hover, .pagination .active a {
+	background-color: #7b3;
+	*background-color: #7b3;
+	background-image: -ms-linear-gradient(top, #8c4, #7b3);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8c4), to(#7b3));
+	background-image: -webkit-linear-gradient(top, #8c4, #7b3);
+	background-image: -o-linear-gradient(top, #8c4, #7b3);
+	background-image: -moz-linear-gradient(top, #8c4, #7b3);
+	background-image: linear-gradient(top, #8c4, #7b3);
+	border-color: #6a2 #6a2 #591 !important;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#8c4', endColorstr='#7b3', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {background-color: #7b3; *background-color:#499249}
+.btn-success:active, .btn-success.active {background-color:#408140 \9}
+
+.popover {z-index:2000 !important; display:block !important}
+.popover.right .arrow {border-right-color:#888}
+.popover.bottom .arrow {border-bottom-color:#888}
+.popover-title {color:#7b3; font-size:15px; background-color:#fafafa; border-bottom:1px solid #e9e9e9}
+.popover-content {font-size:12px; line-height:16px; color:#333; font-weight:400}
+.popover-content strong {font-weight:700}
+
+.tooltip {white-space:nowrap}
+
+.tooltip-inner {font-weight:700; line-height:16px; border-radius:2px}
+
+.dropdown-toggle .caret {border-top-color:#fff !important; border-bottom-color:#fff !important}
+
+.pagination a {border:1px solid #e9e9e9 !important; line-height:32px; background-color:#f7f7f7; border-radius:4px !important; margin:0 3px; color:#666; padding:0 13px}
+.pagination a:hover, .pagination .active a {
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color:#fff !important}
+.pagination .active a {font-weight:700}
+.pagination .previous a, .pagination .next a {font-weight:700; background-color:#fff; border-color:#fff; padding:4px 9px; opacity:0.4}
+.pagination .previous a:hover, .pagination .next a:hover {border-color:#ccc !important; opacity:0.6; background:none}
+
+.icon-phone {background-image:url(../udoctor/images/icon-phone.png) !important; background-position:0 0 !important}
+.icon-phone.icon-white {background-position:0 -14px !important}
+
+.form-actions {border-top-color:#e9e9e9; background-color:#fafafa}
+
+.help {font-weight:400; font-size:10px; margin-left:2px; color:#08b; text-decoration:none}
+.help:hover {text-decoration:underline}
+
+.dropdown-menu li a:hover {
+	background-color: #00aabb;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aabb', endColorstr='#0099aa', GradientType=0 );  
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #00aabb), color-stop(90%, #0099aa));
+	background-image: -webkit-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -moz-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -o-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -ms-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	color: #fff;
+}
+
+.alert {line-height:18px}
+.alert a {text-decoration:underline}
+.alert a:hover {text-decoration:none}
+
+.alert-warning a {color:#C09853}
+
+.avatar {width:170px; height:170px; border:1px solid #e9e9e9; margin-bottom:10px; position:relative; background-color:#fff; padding:4px; border-radius:4px; box-shadow:1px 1px 4px #e9e9e9; overflow:hidden}
+.avatar img, .avatar div {background-color:#fafafa; width:170px; height:170px}
+.avatar a {position:absolute; right:6px; bottom:6px}
+.avatar .doctor {background:url(../udoctor/images/avatar-doctor.png) center 15px no-repeat}
+.avatar .center {background:url(../udoctor/images/avatar-center.png) center center no-repeat}
+.avatar .user {background:url(../udoctor/images/avatar-user.png) center 15px no-repeat}
+
+.form-field {width:250px; margin-bottom:15px; color:#888}
+.form-field input {width:240px; margin:3px 0 0}
+.form-field select {width:250px}
+
+.password-resend {font-size:12px}
+.password-resend i {opacity:0.3}
+.password-resend a {text-decoration:none; color:#888}
+.password-resend a:hover span {text-decoration:underline; color:#aaa}
+
+/* CHOSEN
+============================================================================== */
+.chzn-search input {font-size:12px !important; padding: 2px 20px 2px 5px !important}
+
+.chzn-container-multi .chzn-choices {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border-color:#ccc;
+	border-radius:3px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+}
+
+.chzn-container .chzn-drop {border-color:#ccc; box-shadow:none; top:27px !important}
+.chzn-container-active .chzn-single, .chzn-container-active .chzn-choices {box-shadow:none}
+.chzn-container-single .chzn-single {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border-color:#ccc;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	height: 27px;
+	line-height: 28px;
+	padding: 0 0 0 8px;
+	text-decoration:none;
+}
+
+.chzn-container-single .chzn-default {color:#999}
+
+.chzn-container .chzn-results .highlighted {
+	background-color: #00aabb;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aabb', endColorstr='#0099aa', GradientType=0 );  
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #00aabb), color-stop(90%, #0099aa));
+	background-image: -webkit-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -moz-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -o-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: -ms-linear-gradient(top, #00aabb 20%, #0099aa 90%);
+	background-image: linear-gradient(top, #00aabb 20%, #0099aa 90%);
+}
+
+/* HEADER
+============================================================================== */
+#header {width:100%; height:50px; position:fixed; top:0; background-color:#0ab; border-bottom:1px solid #09a; z-index:1015}
+#header #logo, #header-search {position:absolute}
+#header #logo {top:5px}
+#header #logo a {display:block; width:130px; height:19px; background-image:url(../udoctor/images/logo-white.png)}
+
+#header-search {left:190px; top:9px}
+#header-search input {width:340px; height:30px; box-shadow:0 1px 0 #2cd; border:1px solid #09a}
+#header-search input:hover, #header-search input:focus {box-shadow:0 1px 0 #2cd, inset 0 1px 3px #ccc}
+#header-search input:focus {border-color:#078}
+#header-search button {padding:5px 20px; margin:0 0 0 7px}
+#header-search #location {top:9px}
+
+#header-options .dropdown {float:left; list-style:none}
+#header-options .dropdown-toggle {display:block; padding:16px 9px; line-height:18px; font-size:13px; text-decoration:none; font-weight:700; color:#dee; text-shadow:#09a -1px -1px}
+#header-options .dropdown-toggle:hover {background-color:#0bc; color:#fff}
+#header-options .open a {background-color:transparent}
+#header-options .open .dropdown-toggle {color:#fff}
+#header-options .dropdown-menu {right:-7px; font-size:12px}
+#header-options .dropdown-menu li a {color:#333}
+#header-options .dropdown-menu li a:hover {color:#fff}
+#header-options .dropdown-menu .btn {margin:0}
+#header-options .dropdown-menu input {font-size:12px; width:175px}
+#header-options .dropdown-menu i {opacity:0.5}
+#header-options form {padding:10px}
+
+#option-login .dropdown-toggle i {width:16px; height:14px; margin:1px 0 -1px; display:inline-block; background-image:url(../udoctor/images/icon-user.png)}
+#option-login .dropdown-toggle:hover i, #option-login.open .dropdown-toggle i {background-position:0 -14px}
+#option-login form a {white-space:nowrap; font-size:11px; text-decoration:none; color:#999}
+#option-login form a:hover {text-decoration:underline; color:#aaa}
+
+#option-share .dropdown-toggle i {width:12px; height:11px; display:inline-block; background-image:url(../udoctor/images/icon-heart.png)}
+#option-share .dropdown-toggle:hover i, #option-share.open .dropdown-toggle i {background-position:0 -11px}
+
+/* INDEX
+============================================================================== */
+#index {padding-top:190px; text-align:center}
+#index h1 {font-size:20px; line-height:10px; color:#ccc; background:url(../udoctor/images/logo.png) center 0 no-repeat; letter-spacing:-1px; font-weight:400; padding-top:85px}
+#index form {width:568px; margin:auto; padding:18px 0 40px}
+#index .search input {width:450px; height:35px}
+#index button {padding:7px 25px}
+
+/* BREADCRUMB
+============================================================================== */
+#breadcrumb {min-width:960px; border-bottom:1px solid #e9e9e9; padding:54px 0 8px; margin-bottom:30px; background-color:#fafafa}
+#breadcrumb h2, #breadcrumb-info {float:left}
+#breadcrumb h2 {width:180px; margin:0; margin-right:20px; color:#8c4; padding-top:5px; font-size:22px}
+#breadcrumb-info {padding-top:19px; color:#999; font-size:13px}
+#breadcrumb-info a {color:#8c4; text-decoration:underline}
+#breadcrumb-info a:hover {text-decoration:none}
+#breadcrumb-info span {margin:0 3px; color:#ccc}
+#breadcrumb-info i {opacity:0.4}
+
+/* CONTENT
+============================================================================== */
+.content {padding-bottom:75px}
+.content-left, .content-middle, .content-right {float:left; position:relative}
+.content-left {width:180px}
+.content-middle {width:520px; margin-left:20px}
+.content-right {width:220px; margin-left:20px}
+
+/* LEFT FIELDS
+============================================================================== */
+#left-fields {line-height:17px}
+#left-fields h5 {padding-top:13px; margin:0}
+#left-fields h5, #left-fields p {margin-bottom:2px; color:#666; font-size:12px}
+#left-fields h5 i, #left-fields p i {opacity:0.2}
+#left-fields input, #left-fields .chzn-container {margin-bottom:14px}
+#left-fields .chzn-choices input {margin-bottom:0}
+#left-fields select {width:170px}
+#left-fields input {width:160px}
+#left-fields .info-group {border-left:2px solid #eee; padding:6px 0 0 10px; margin:0 0 10px 6px}
+#left-fields .info-group input {width:126px; margin-bottom:6px}
+#left-fields .info-group i {cursor:pointer}
+
+#address-tabs {margin:5px 0 12px; position:relative}
+#address-tabs li a {font-size:11px; padding:3px 9px; text-decoration:none; color:#08b !important}
+#address-tabs .active a {font-weight:700}
+#insert-address {position:absolute; right:7px; top:5px}
+#insert-address i {cursor:pointer}
+
+#address-list {overflow:visible}
+#address-list input, #address-list .chzn-container {margin-bottom:9px}
+#address-list select {padding:0 !important}
+#address-list i {cursor:pointer; margin:-3px 8px 0 0}
+#address1 i {display:none}
+
+/* SEARCH RESULTS
+============================================================================== */
+#search-results {width:530px; margin-left:10px}
+#search-results h6 {position:absolute; right:0; top:0; line-height:11px; margin:0; background-color:#0ab; border-radius:3px 3px 0 0; padding:2px 7px 2px 5px; z-index:5; color:#e7f3f3; text-shadow:#09a -1px -1px; font-size:11px; font-weight:400}
+#search-results h6 i {opacity:0.3}
+#search-results li {list-style:none; padding-bottom:20px; color:#333; font-size:13px; line-height:19px}
+#search-results dl {margin-bottom:0}
+#search-results dt a {color:#08b; font-size:15px; text-decoration:underline; font-weight:400}
+#search-results dt a:hover {text-decoration:none}
+#search-results dd {padding-left:0; margin-left:0}
+#search-results dd i {opacity:0.25}
+
+#search-ads {border:1px solid #c5d8da; background-color:#f1f8f8; margin:18px 0 20px; padding:14px 10px; border-radius:3px 0 3px 3px}
+#search-ads li:last-child {padding-bottom:0}
+#search-ads dt span {font-size:12px; color:#999}
+#search-ads dd {padding-left:11px}
+
+#search-organic {padding-left:10px; margin-left:0}
+
+/* ADS
+============================================================================== */
+#ads {width:200px; padding:30px 0 0 19px; border-left:1px solid #e9e9e9; color:#333; font-size:12px; line-height:17px}
+#ads h6 {color:#999; font-size:11px; font-weight:400; position:absolute; top:0; right:0; margin:0}
+#ads h6 i {opacity:0.2}
+#ads a {color:#08b; font-size:15px; text-decoration:underline}
+#ads a:hover {text-decoration:none}
+
+/* PROFILE
+============================================================================== */
+#register-tabs i {opacity:0.3}
+
+#profile-contact {z-index:99}
+#profile-contact dl {padding-top:13px; line-height:17px; font-size:12px; overflow:hidden}
+#profile-contact dt {color:#666; padding-bottom:1px; font-weight:700}
+#profile-contact dt i {opacity:0.2}
+#profile-contact dd {margin:0 0 15px 18px; color:#333}
+#profile-contact dd span {color:#aaa}
+#profile-contact a {color:#08b; text-decoration:none}
+#profile-contact a:hover {text-decoration:underline}
+#profile-contact input {width:160px}
+
+.content h1, .profile-info h2, .profile-info h3, .profile-info h4 {font-weight:400}
+.content h1 {color:#8c4; margin:0 0 12px; font-size:30px; letter-spacing:-1px; clear:both}
+.profile-info h2 {font-size:24px; line-height:36px; color:#666; margin:0; letter-spacing:-1px}
+.profile-info h3 {text-transform:uppercase; font-size:16px; line-height:16px; margin:0; color:#888}
+.profile-info h4 {margin:15px 0 6px; font-size:17px; color:#888; clear:both}
+.profile-info h4 i {opacity:0.3; vertical-align:top}
+.profile-info .info {color:#333; font-size:14px; line-height:17px; padding:5px 0 5px 11px; border-left:2px solid #eee; margin-left:6px; overflow:hidden}
+.profile-info .form-actions { padding:15px}
+.profile-info textarea {width:510px; height:80px}
+.profile-info label input {margin-top:0}
+#profile-edit-btn {position:absolute; top:0; right:12px}
+
+#username {border-top:1px dotted #ddd; border-bottom:1px dotted #ddd; margin:12px 0; padding:15px 0; width:100%}
+#username:before, #username:after {content:''; display:table; clear:both}
+#username .form-field {margin-bottom:0}
+#username div.form-field {font-size:11px}
+
+/* ADMIN
+============================================================================== */
+#admin-listing {width:770px; font-size:13px; color:#333; margin-left:10px}
+#admin-listing .form-actions {border-bottom:1px solid #e9e9e9; border-top:none}
+#admin-listing .form-actions-fixed {position:fixed; width:730px; z-index:5; top:50px; margin:0; box-shadow:0 1px 8px #e2e2e2}
+#admin-listing .input-append {margin-left:15px; display:inline}
+#admin-listing .input-append i, #admin-listing .form-actions .pull-right i {opacity:0.5}
+#admin-listing .table {margin-bottom:30px}
+#admin-listing .table i {opacity:0.8}
+#admin-listing .highlight td {background-color:#f1f8f8; color:#08b}
+#admin-listing .no-show td {color:#999}
+#admin-listing .center-cell {text-align:center; width:60px}
+
+/* FOOTER
+============================================================================== */
+#footer {width:100%; min-width:960px; position:absolute; bottom:0; color:#666; font-size:12px}
+#footer .container {width:auto; padding:12px 0; margin:0 14px; border-top:1px solid #ddd; overflow:hidden}
+#footer span, #footer a {margin-right:12px}
+#footer a {color:#666; text-decoration:none}
+#footer a:hover {text-decoration:underline; color:#888}
+
+#social-share {position:absolute; right:0; top:8px}
+#social-share * {float:left}
+#social-share .fb-like {margin-right:0}
+#social-share .twitter-share-button {width:100px !important}
+#social-share #___plusone_0 {width:65px !important}

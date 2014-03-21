@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.grails.internal"
+		module="udoctor"
+		revision="0.1"
+		conf="provided"
+		confs="provided"
+		date="20130315203139"/>
+	<dependencies>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-jasper">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2715" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-jasper\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-jasper/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, provided" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-jasper" type="jar" ext="jar" status="no" details="" size="788386" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-jasper\jars\tomcat-embed-jasper-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-core">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-core\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-core/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, provided" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-core" type="jar" ext="jar" status="no" details="" size="2578981" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-core\jars\tomcat-embed-core-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-log4j">
+			<revision name="7.0.30" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2419" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\ivy-7.0.30.xml" searched="false" origin-is-local="true" origin-location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-log4j/ivy-7.0.30.xml"/>
+				<caller organisation="org.grails.internal" name="udoctor" conf="default, provided" rev="7.0.30" rev-constraint-default="7.0.30" rev-constraint-dynamic="7.0.30" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-log4j" type="jar" ext="jar" status="no" details="" size="83226" time="0" location="C:\Users\Daniel Marchena\Desktop\projetos\udoctor\target\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\jars\tomcat-embed-logging-log4j-7.0.30.jar">
+						<origin-location is-local="true" location="/Users/danielmarchenaparreira/grails-2.2.1/lib/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
